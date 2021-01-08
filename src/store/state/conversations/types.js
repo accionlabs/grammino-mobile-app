@@ -1,0 +1,65 @@
+export const LOAD_CONVERSATIONS = 'conversations/LOAD_CONVERSATIONS';
+export const LOADING_CONVERSATIONS = 'conversations/LOADING_CONVERSATIONS';
+export const LOAD_CONVERSATIONS_SUCCESS =
+  'conversations/LOAD_CONVERSATIONS_SUCCESS';
+export const LOAD_CONVERSATIONS_FAILED =
+  'conversations/LOAD_CONVERSATIONS_FAILED';
+
+export const LOAD_PUBLIC_CONVERSATIONS =
+  'conversations/LOAD_PUBLIC_CONVERSATIONS';
+export const LOADING_PUBLIC_CONVERSATIONS =
+  'conversations/LOADING_PUBLIC_CONVERSATIONS';
+export const LOAD_PUBLIC_CONVERSATIONS_SUCCESS =
+  'conversations/LOAD_PUBLIC_CONVERSATIONS_SUCCESS';
+export const LOAD_PUBLIC_CONVERSATIONS_FAILED =
+  'conversations/LOAD_PUBLIC_CONVERSATIONS_FAILED';
+
+export const LOAD_CONVERSATION = 'conversations/LOAD_CONVERSATION';
+export const LOADING_CONVERSATION = 'conversations/LOADING_CONVERSATION';
+export const LOAD_CONVERSATION_SUCCESS =
+  'conversations/LOAD_CONVERSATION_SUCCESS';
+export const LOAD_CONVERSATION_FAILED =
+  'conversations/LOAD_CONVERSATION_FAILED';
+
+export const POST_IN_PUBLIC = 'conversations/POST_IN_PUBLIC';
+export const POSTING_IN_PUBLIC = 'conversations/POSTING_IN_PUBLIC';
+export const POST_IN_PUBLIC_SUCCESS = 'conversations/POST_IN_PUBLIC_SUCCESS';
+export const POST_IN_PUBLIC_FAILED = 'conversations/POST_IN_PUBLIC_FAILED';
+export const APPEND_NEW_CHAT_TO_PUBLIC =
+  'conversations/APPEND_NEW_CHAT_TO_PUBLIC';
+
+export const POST_IN_PRIVATE = 'conversations/POST_IN_PRIVATE';
+export const POSTING_IN_PRIVATE = 'conversations/POSTING_IN_PRIVATE';
+export const POST_IN_PRIVATE_SUCCESS = 'conversations/POST_IN_PRIVATE_SUCCESS';
+export const POST_IN_PRIVATE_FAILED = 'conversations/POST_IN_PRIVATE_FAILED';
+export const APPEND_NEW_CHAT_TO_PRIVATE =
+  'conversations/APPEND_NEW_CHAT_TO_PRIVATE';
+
+export const GET_CHATS = 'conversations/GET_CHATS';
+export const GETTING_CHATS = 'conversations/GETTING_CHATS';
+export const GET_CHATS_SUCCESS = 'conversations/GET_CHATS_SUCCESS';
+export const GET_CHATS_FAILED = 'conversations/GET_CHATS_FAILED';
+
+export const CLEAR_ACTIVE_CHAT = 'conversations/CLEAR_ACTIVE_CHAT';
+
+export const START_CONVERSATION = 'conversations/START_CONVERSATION';
+export const STARTING_CONVERSATION = 'conversations/STARTING_CONVERSATION';
+export const START_CONVERSATION_SUCCESS =
+  'conversations/START_CONVERSATION_SUCCESS';
+export const START_CONVERSATION_FAILED =
+  'conversations/START_CONVERSATION_FAILED';
+
+export const SET_PUBLIC_SCREEN_ACTIVE =
+  'conversations/SET_PUBLIC_SCREEN_ACTIVE';
+export const RESET_PUBLIC_SCREEN_ACTIVE =
+  'conversations/RESET_PUBLIC_SCREEN_ACTIVE';
+
+export const INCREMENT_UNSEEN_PUBLIC_CHAT_COUNT =
+  'conversations/INCREMENT_UNSEEN_PUBLIC_CHAT_COUNT';
+export const RESET_UNSEEN_PUBLIC_CHAT_COUNT =
+  'conversations/RESET_UNSEEN_PUBLIC_CHAT_COUNT';
+
+export const INCREMENT_UNSEEN_PRIVATE_CHAT_COUNT =
+  'conversations/INCREMENT_UNSEEN_PRIVATE_CHAT_COUNT';
+export const RESET_UNSEEN_PRIVATE_CHAT_COUNT =
+  'conversations/RESET_UNSEEN_PRIVATE_CHAT_COUNT';

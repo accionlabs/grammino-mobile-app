@@ -1,0 +1,2 @@
+export const PUBLIC_CONVERSATION_ID = "123456789";
+export const PUBLIC_RECIEVER_ID = "00000";
